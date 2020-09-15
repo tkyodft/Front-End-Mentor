@@ -1,0 +1,12 @@
+header {
+    text-align: center;
+    padding: 2.625rem;
+
+    & p {
+        font-weight: 200;
+        font-size: $fontmd;
+        color: $darkBlue;
+        max-width: 31.25rem;
+        margin: 0 auto;
+    }
+}

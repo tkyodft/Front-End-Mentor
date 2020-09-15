@@ -1,0 +1,35 @@
+.card {
+    background-color: $white;
+    box-shadow: 0.125rem 0.5rem 0.875rem 0 $grayishBlue;
+    border-radius: 0.5rem;
+    padding: 1.8125rem;
+    margin: 2rem;
+    max-width: 25rem;
+    transition: all 200ms ease-in-out;
+
+    &--border-red {
+        @include border-color($Red);
+      }
+    
+      &--border-cyan {
+        @include border-color($Cyan);
+      }
+    
+      &--border-orange {
+        @include border-color($Orange);
+      }
+    
+      &--border-blue {
+        @include border-color($Blue);
+      }
+
+      & img {
+          display: block;
+          margin-left: auto;
+          margin-top: 2.25rem;
+      }
+
+      &:hover {
+        transform: scale(1.05);
+      }
+}

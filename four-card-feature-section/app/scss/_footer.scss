@@ -1,0 +1,21 @@
+.footer {
+    font-size: $fontsm;
+    text-align: center;
+    background-color: $white;
+    padding: 1.25rem;
+    box-shadow: 0.125rem 0.5rem 0.875rem 0 $grayishBlue;
+    color: $darkBlue;
+
+    & a {
+        transition: all 200ms ease-in-out;
+    }
+
+    & a:link, a:visited {
+        text-decoration: none;
+        color: $grayishBlue;
+    }
+
+    & a:hover {
+        color: $Orange;
+    }
+}

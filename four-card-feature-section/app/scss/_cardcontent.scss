@@ -1,0 +1,13 @@
+.card__content {
+
+    & h3 {
+        font-size: $fontsm;
+        color: $darkBlue;
+    }
+
+    & p {
+        line-height: 1.8;
+        font-size: 1rem;
+        color: $grayishBlue;
+    }
+}

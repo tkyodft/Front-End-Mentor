@@ -1,0 +1,31 @@
+// Colors
+$Red: hsl(0, 78%, 62%);
+$Cyan: hsl(180, 62%, 55%);
+$Orange: hsl(34, 97%, 64%);
+$Blue: hsl(212, 86%, 64%);
+
+$darkBlue: hsl(234, 12%, 34%);
+$grayishBlue: hsl(229, 6%, 66%);
+$verylightGray: hsl(0, 0%, 98%);
+$white: hsl(0, 0%, 100%);
+
+// Font size
+$fontxs: 0.5625rem; //9px
+$fontsm: 0.9375rem; //15px
+$fontmd: 1rem; //16px
+$fontlg: 1.5625rem; //25px
+
+// Border color
+@mixin border-color($color) {
+  border-top: 5px solid $color;
+}
+
+// Breakpoint
+@media only screen and (min-width: 75em) {
+  .cards.flex {
+    flex-direction: row;
+  }
+  .cards.flex.card {
+    margin: 2rem;
+  }
+}
